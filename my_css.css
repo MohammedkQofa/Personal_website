@@ -1,0 +1,413 @@
+/* Start main Css */
+body{
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+/* End main Css */
+
+/* <!-- Start Header --> */
+.top{
+  position: fixed;
+  right: -100px;
+  bottom: 30px;
+  Z-INDEX: 2;
+  background: black;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  transition: 0.5s;
+  
+}
+.top_show{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  Z-INDEX: 2;
+  background: black;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+div.first{
+    position: relative;
+    height: 554px;
+    width: 100%;
+    background: url(web88.jpg) ;
+    background-repeat: round;
+    
+    
+}
+
+div.first h1{
+    color: orangered;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+    
+}
+
+div.first .det{
+    color: orangered;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 30px;
+    
+
+}
+div.nav{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+div.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 20px;
+    
+  }
+  
+  div.nav li a{
+    float: right;
+  }
+  div.nav p {
+      color: white;
+      float: left;
+      padding-left: 30px;
+
+  }
+  div.nav p::first-letter{
+      border-color: white;
+      border-style: solid;
+      border-width: 2px;
+      padding: 7px;
+      margin: 5px;
+      background-color: rgb(255,255, 255,0.3);
+      text-shadow: white 2px px;
+
+  }
+  div.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+   div.nav li a:hover {
+    background-color: orange;
+  }
+  /* <!-- End Header --> */
+
+  /* <!-- Start Section About --> */
+  div.second{
+    position: relative;
+    padding: 70px;
+    width: 80%;
+  }
+
+
+  div.second1{
+    
+      float: left;
+      width: 40%;
+      
+  }
+  div.second1 h1{
+      color: orange;
+  }
+  div.second1 p{
+    line-height: 30px;
+    font-size: 18px;
+    color: rgba(27, 27, 27, 0.7);
+}
+
+
+  div.second2 img{
+    position: absolute;
+    right: 0px;
+    width: 35%;
+  }
+  /* <!-- End Section About --> */
+
+
+
+  /* <!-- Start Section Skills --> */
+  
+div.theard{
+  background-color: rgba(199, 190, 190, 0.247);
+  margin-top: 300px;
+  height: 370px;
+  width: 100%;
+}
+
+
+  div.theard1{
+    position: absolute;
+    padding: 70px;
+    float: left;
+    width: 40%;
+    
+  }
+
+  div.theard1 h1{
+    color: orange;
+  }
+  div.theard2{
+    
+    position: absolute;
+    left: 50.4%;
+    padding: 70px;
+    width: 39.2%;
+  }
+  .theard2>div{
+    background-color: white;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+    
+  }
+  .theard2_html{
+    display: inline-block;
+    width: 50px;
+    position: absolute;
+    margin-top: 21px;
+  }
+  .theard2_css{
+    display: inline-block;
+    width: 50px;
+    position: absolute;
+    margin-top: 21px;
+  }
+  .theard2_js{
+    display: inline-block;
+    width: 50px;
+    padding: 10px;
+    position: absolute;
+    margin-top: 11px;
+  }
+  .theard21 {
+    background-color: rgba(199, 190, 190, 0.247);
+    margin: 7px;
+    width: 87%;
+    display: inline-block;
+    margin-left: 57px;
+  }
+  .theard21a{
+    width: 0;
+    background-color: orange;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  div.theard a{
+    border: 2px solid rgb(0, 139, 23);
+    color: rgb(0, 139, 23);
+    padding: 7px;
+    text-decoration: none;
+  }
+
+  .theard a:hover{
+    background-color: rgb(0, 139, 23);
+    color: white;
+  }
+
+  /* <!-- Start Section Skills --> */
+
+  /* <!-- Start Section Our Project --> */
+  div.forth{
+    margin-top: 70px;
+    margin-left: 30px;
+  }
+  
+  div.forth h1, .five h1{
+    color: orange;
+    text-align: center;
+  }
+  .line{
+    width: 100px; 
+    height: 5px; 
+    background-color: orange; 
+    border-width: 0px; 
+     margin-top: -20px;
+  }
+  .forth img{
+    float: left;
+    width: 30%;
+    border-style: outset;
+    border-width: 2px;
+    border-color: rgba(179, 176, 176 , 0.3);
+    margin: 15px;
+    z-index: 1;
+    
+    
+  }
+  .forth .im1,.im2,.im3,.im4,.im5,.im6{
+    position: absolute;
+    margin-top: 17px;
+    width: 396px;
+    text-align: center;
+    padding-top: 119px;
+    padding-bottom: 119px;
+    opacity: 86%;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: orange;
+    opacity: 0%;
+  }
+  .forth .im1:hover,.im2:hover,.im3:hover,.im4:hover,.im5:hover,.im6:hover{
+    transition: 2s;
+    opacity: 90%;
+  }
+  .im1{
+    margin-left: 17px;
+  }
+  .im2{
+    margin-left: 446px;
+  }
+  .im3{
+    margin-left: 876px;
+  }
+  .im4{
+    margin-left: 17px;
+    margin-top: 315px;
+  }
+  .im5{
+    margin-top: 315px;
+    margin-left: 446px;
+  }
+  .im6{
+    margin-top: 315px;
+    margin-left: 876px;
+  }
+  /* <!-- End Section Our Project --> */
+
+
+  /* <!-- Start Section Customers --> */
+  .five{
+    margin-top: 600px;
+    background-color: rgb(231, 231, 231);
+    padding-top: 50px;
+    padding-bottom: 300px;
+  }
+
+  
+  .five img{
+    margin-left: 35%;
+    width: 100px;
+    border-radius: 100px;
+    border: 2px solid #d8b518;
+    opacity: 60%;
+
+  }
+  .five img:hover{
+    opacity: 100%;
+  }
+  .five .name{
+    margin-left: 35%;
+    color: rgb(93, 0, 180);
+    font-weight: bold;
+  }
+  .five .detailes{
+    text-align: center;
+  }
+  .customers{
+    margin-top: 30px;
+    float: left;
+    width: 25%;
+    margin-left: 80px;
+  }
+  .customers1{
+    margin-top: 30px;
+    float: left;
+    width: 25%;
+    margin-left: 90px;
+  }
+  .customers2{
+    margin-top: 30px;
+    float: right;
+    width: 25%;
+    margin-right: 80px;
+  }
+  /* <!-- End Section Customers --> */
+
+  /* <!-- Start Section Countact us --> */
+  .six{
+    color: orange;
+    text-align: center;
+    height: 600px;
+    background-size: 100%;
+    background-image: url(map3.jpg) ;
+  }
+  .six h1{
+    padding-top: 60px;
+  }
+  form{
+    margin-top: 100px;
+    margin-right: 26%;
+    position: relative;
+  }
+  form input{
+    padding: 9px;
+    background-color: rgb(231, 231, 231);
+    margin-top: 10px;
+    width: 450px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+  }
+  form button{
+    border-width: 0px;
+    padding: 9px;
+    width: 469px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: orange;
+    color: white;
+  }
+  
+  textarea{
+    background-color: rgb(231, 231, 231);
+    position: absolute;
+    right: -180px;
+    top: 9px;
+    height: 230px;
+    border-width: 0px;
+    font-size: 16px;
+  }
+  /* <!-- End Section Countact us --> */
+
+  /* <!-- Start Footer --> */
+  .seven{
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    margin-top: -16px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .seven p{
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+  }
+  .seven ul{
+    list-style-type: none;
+    text-align: center;
+    margin-left: 39%;
+  }
+  .seven ul li{
+    float: left;
+    margin-left: 5px;
+  }
+  /* <!-- End Footer --> */
